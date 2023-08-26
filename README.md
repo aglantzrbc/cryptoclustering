@@ -20,9 +20,9 @@ In this [project](https://bootcampspot.instructure.com/courses/3337/assignments/
 
 After investigating the data, sklearn's [StandardScaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html) was used in preprocessing to [normalize](https://en.wikipedia.org/wiki/Normalization_(statistics)) all dimensions of the data on a single scale. The best value for `k` (i.e., the nunber of [clusters](https://developers.google.com/machine-learning/clustering/overview#:~:text=In%20machine%20learning%20too%2C%20we,relies%20on%20unsupervised%20machine%20learning.)) was calculated by running [K-Means](https://serokell.io/blog/k-means-clustering-in-machine-learning) 11 times on the dataset and plotting the results, thereby using the [Elbow method](https://www.analyticsvidhya.com/blog/2021/01/in-depth-intuition-of-k-means-clustering-algorithm-in-machine-learning/) heuristic to determine when minimizing inertia (i.e., the [within-cluster sum of squares (WCSS))](https://support.minitab.com/en-us/minitab/21/help-and-how-to/statistical-modeling/multivariate/how-to/cluster-k-means/interpret-the-results/all-statistics-and-graphs/#:~:text=The%20within%2Dcluster%20sum%20of%20squares%20is%20a%20measure%20of,a%20large%20sum%20of%20squares.) is balanced by dimishing returns in adding more clusters.
 
-**Question 1:** What is the best value for `k`?
+_**Question 1:**_ What is the best value for `k`?
 
-**Answer:** It was demonstrated that the best value for `k` = _4_. After that point, the line becomes mostly horizontal, because more clusters only reduce the inertia by a small amount. See **Figure 1**.
+_**Answer:**_ It was demonstrated that the best value for `k` = _4_. After that point, the line becomes mostly horizontal, because more clusters only reduce the inertia by a small amount. See **Figure 1**.
 
 ![image](https://github.com/aglantzrbc/cryptoclustering/assets/127694342/2926e66c-4803-4097-a6f8-6a7e8c8557e5)
 
@@ -40,9 +40,9 @@ K-Means was then used to train the data to produce four clusters of the relation
 
 [Principal component analysis (PCA)](https://en.wikipedia.org/wiki/Principal_component_analysis) was used to fit the dimensions of the dataset to a predetermined three principal components.
 
-**Question 2:** What is the total explained variance of the three principal components?
+_**Question 2:**_ What is the total explained variance of the three principal components?
 
-**Answer:** The total explained variance of the dataset when all dimensional variance is reduced to three principal components is _0.37005408 + 0.32322221 + 0.19115222_ = **0.88442851**, or just over 88%. In other words, _even after PCA reduces dimensionality, it still captures a large amount of the original dataset's variance._
+_**Answer:**_ The total explained variance of the dataset when all dimensional variance is reduced to three principal components is _0.37005408 + 0.32322221 + 0.19115222_ = **0.88442851**, or just over 88%. In other words, _even after PCA reduces dimensionality, it still captures a large amount of the original dataset's variance._
 
 - **Find the Best Value for k Using the PCA Data**
 
@@ -52,13 +52,21 @@ The optimal value for `k` was now determined with the Elbow method again, this t
 
 **Figure 3** | *Elbow curve for `k` (number of clusters) using the PCA output data*
 
-**Question 3:** What is the best value for `k` when using the PCA data?
+_**Question 3:**_ What is the best value for `k` when using the PCA data?
 
-**Answer:** The best value for `k` = _4_. After that point, the line becomes mostly horizontal, because more clusters only reduce the within-cluster sum of squares (WCSS) by a small amount.
+_**Answer:**_ The best value for `k` = _4_. After that point, the line becomes mostly horizontal, because more clusters only reduce the within-cluster sum of squares (WCSS) by a small amount.
 
-**Question 4:** Does it differ from the best `k` value found using the original data?
+_**Question 4:**_ Does it differ from the best `k` value found using the original data?
 
-**Answer:** No, the optimal value for `k` in both cases = _4_. This consistency in the optimal `k` value between the original scaled data and the PCA-reduced data provides additional confidence in the clustering. It suggests that the underlying structure of the data, in terms of how the data points group together, is maintained _even after the dimensionality reduction of PCA_ (i.e., "throwing away" some data).
+_**Answer:**_ No, the optimal value for `k` in both cases = _4_. This consistency in the optimal `k` value between the original scaled data and the PCA-reduced data provides additional confidence in the clustering. It suggests that the underlying structure of the data, in terms of how the data points group together, is maintained _even after the dimensionality reduction of PCA_ (i.e., "throwing away" some data).
+
+- **Cluster Cryptocurrencies with K-means Using the PCA Data**
+
+K-Means was used again, this time to train the PCA-output data, to produce four clusters of the relationship between the the first two of three principal components (`PC1` and `PC2`). See **Figure 4**.
+
+![image](https://github.com/aglantzrbc/cryptoclustering/assets/127694342/ff4ba901-abb2-4d1f-b3d5-b730108d53a1)
+
+**Figure 4** *Predicted clusters from the PCA-output data of the relationship between the first and second of three principal components.**
 
 ### 2. INSTALLATION
 

@@ -38,7 +38,7 @@ K-Means was then used to train the data to produce four clusters of the relation
 
 - **Optimize Clusters with Principal Component Analysis**
 
-[Principal component analysis (PCA)](https://en.wikipedia.org/wiki/Principal_component_analysis) was used to fit the dimensions of the dataset to a predetermined three principal components. (NB - A volume of _three_ is often used for principal components because it mirrors the three dimensions of space and is therefore easy to comprehend and visualize.)
+[Principal component analysis (PCA)](https://en.wikipedia.org/wiki/Principal_component_analysis) was used to fit the dimensions of the dataset to a predetermined three principal components. (NB - A volume of _three_ is often used for principal components because it mirrors the three dimensions of Euclidian space and is therefore easy to comprehend and visualize.)
 
 _**Question 2:**_ What is the total explained variance of the three principal components?
 
@@ -54,7 +54,7 @@ The optimal value for `k` was now determined with the Elbow method again, this t
 
 _**Question 3:**_ What is the best value for `k` when using the PCA data?
 
-_**Answer:**_ The best value for `k` = _4_. After that point, the line becomes mostly horizontal, because more clusters only reduce the within-cluster sum of squares (WCSS) by a small amount.
+_**Answer:**_ The best value for `k` = _4_. After that point, the line becomes mostly horizontal, because more clusters only reduce the inertia by a small amount.
 
 _**Question 4:**_ Does it differ from the best `k` value found using the original data?
 

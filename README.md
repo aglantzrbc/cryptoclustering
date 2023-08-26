@@ -28,13 +28,21 @@ After investigating the data, sklearn's [StandardScaler](https://scikit-learn.or
 
 **Figure 1** | *Elbow curve for `k` (number of clusters) using the original normalized data*
 
-- **Cluster Cryptocurrencies with K-means Using the Original Data**
+- **Cluster Cryptocurrencies with K-Means Using the Original Data**
 
 K-Means was then used to train the data to produce four clusters of the relationship between 24-hour and 7-day cryprocurrency price changes. The value of clustering is that the machine can determine and display patterns it discovers by itself. See **Figure 2**.
 
 ![image](https://github.com/aglantzrbc/cryptoclustering/assets/127694342/75334f78-6eba-43ba-97d8-2e10dfe5b18c)
 
 **Figure 2** | *Predicted clusters from the original normalized data of the relationship between 24-hour and 7-day cryptocurrency price changes.*
+
+- **Optimize Clusters with Principal Component Analysis**
+
+[Principal component analysis (PCA)](https://en.wikipedia.org/wiki/Principal_component_analysis) was used to fit the dimensions of the dataset to a predetermined three principal components.
+
+**Question 2:** What is the total explained variance of the three principal components?
+
+**Answer:** The total explained variance of the dataset when all dimensional variance is reduced to three principal components is _0.37005408 + 0.32322221 + 0.19115222_ = **0.88442851**, or just over 88%. In other words, _even after PCA reduces dimensionality, it still captures a large amount of the original dataset's variance._
 
 ### 2. INSTALLATION
 

@@ -18,7 +18,7 @@ In this [project](https://bootcampspot.instructure.com/courses/3337/assignments/
 
 - **Prepare the Data and Find the Best Value for `k` Using the Original Data**
 
-After exploring the data, sklearn's [StandardScaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html) was used in preprocessing to [normalize](https://en.wikipedia.org/wiki/Normalization_(statistics)) all dimensions of the data on a single scale. The best value for `k` (i.e., the nunber of [clusters](https://developers.google.com/machine-learning/clustering/overview#:~:text=In%20machine%20learning%20too%2C%20we,relies%20on%20unsupervised%20machine%20learning.)) was calculated by running [K-Means](https://serokell.io/blog/k-means-clustering-in-machine-learning) 11 times on the dataset and plotting the results, thereby using the [Elbow method](https://www.analyticsvidhya.com/blog/2021/01/in-depth-intuition-of-k-means-clustering-algorithm-in-machine-learning/)) heuristic to determine when minimizing inertia (i.e., the [within-cluster sum of squares (WCSS)](https://support.minitab.com/en-us/minitab/21/help-and-how-to/statistical-modeling/multivariate/how-to/cluster-k-means/interpret-the-results/all-statistics-and-graphs/#:~:text=The%20within%2Dcluster%20sum%20of%20squares%20is%20a%20measure%20of,a%20large%20sum%20of%20squares.)) is balanced by dimishing returns in adding more clusters.
+After exploring the data, sklearn's [StandardScaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html) was used in preprocessing to [normalize](https://en.wikipedia.org/wiki/Normalization_(statistics)) all dimensions of the data on a single scale. The best value for `k` (i.e., the number of [clusters](https://developers.google.com/machine-learning/clustering/overview#:~:text=In%20machine%20learning%20too%2C%20we,relies%20on%20unsupervised%20machine%20learning.)) was calculated by running [K-Means](https://serokell.io/blog/k-means-clustering-in-machine-learning) 11 times on the dataset and plotting the results, thereby using the [Elbow method](https://www.analyticsvidhya.com/blog/2021/01/in-depth-intuition-of-k-means-clustering-algorithm-in-machine-learning/)) heuristic to determine when minimizing inertia (i.e., the [within-cluster sum of squares (WCSS)](https://support.minitab.com/en-us/minitab/21/help-and-how-to/statistical-modeling/multivariate/how-to/cluster-k-means/interpret-the-results/all-statistics-and-graphs/#:~:text=The%20within%2Dcluster%20sum%20of%20squares%20is%20a%20measure%20of,a%20large%20sum%20of%20squares.)) is balanced by diminishing returns in adding more clusters.
 
 _**Question 1:**_ What is the best value for `k`?
 
@@ -30,7 +30,7 @@ _**Answer:**_ It was demonstrated that the best value for `k` = _4_. After that 
 
 - **Cluster Cryptocurrencies with K-Means Using the Original Data**
 
-K-Means was then used to train the data to produce four clusters of the relationship between 24-hour and 7-day cryprocurrency price changes. The value of clustering is that the machine can determine and display patterns it discovers by itself. See **Figure 2**.
+K-Means was then used to train the data to produce four clusters of the relationship between 24-hour and 7-day cryptocurrency price changes. The value of clustering is that the machine can determine and display patterns it discovers by itself. See **Figure 2**.
 
 ![image](https://github.com/aglantzrbc/cryptoclustering/assets/127694342/75334f78-6eba-43ba-97d8-2e10dfe5b18c)
 
@@ -62,7 +62,7 @@ _**Answer:**_ No, the optimal value for `k` in both cases = _4_. This consistenc
 
 - **Cluster Cryptocurrencies with K-means Using the PCA Data**
 
-K-Means was used again, this time to train the PCA-output data, to produce four clusters of the relationship between the the first two of three principal components (`PC1` and `PC2`). These two are used in a two-dimensional plot because they each explain more variance in the original dataset than `PC3`. See **Figure 4**.
+K-Means was used again, this time to train the PCA-output data, to produce four clusters of the relationship between the first two of three principal components (`PC1` and `PC2`). These two are used in a two-dimensional plot because they each explain more variance in the original dataset than `PC3`. See **Figure 4**.
 
 ![image](https://github.com/aglantzrbc/cryptoclustering/assets/127694342/ff4ba901-abb2-4d1f-b3d5-b730108d53a1)
 

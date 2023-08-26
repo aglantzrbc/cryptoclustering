@@ -26,7 +26,7 @@ _**Answer:**_ It was demonstrated that the best value for `k` = _4_. After that 
 
 ![image](https://github.com/aglantzrbc/cryptoclustering/assets/127694342/2926e66c-4803-4097-a6f8-6a7e8c8557e5)
 
-**Figure 1** | *Elbow curve for `k` (number of clusters) using the original normalized data*
+**Figure 1** | *Elbow curve for `k` (number of clusters) using the original normalized data.*
 
 - **Cluster Cryptocurrencies with K-Means Using the Original Data**
 

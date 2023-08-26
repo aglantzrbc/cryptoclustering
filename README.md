@@ -78,12 +78,10 @@ _**Answer:**_ The impact of using PCA data results in tighter, more compact, les
 
 ### 2. INSTALLATION
 
-- The [GitHub](https://github.com/aglantzrbc/leaflet-challenge) repository (version 2.9.1) containing all project files is publicly accessible.
+- The [GitHub](https://github.com/aglantzrbc/cryptoclustering) repository (version 2.9.1) containing all project files is publicly accessible.
 - **Constituent program files and their locations:**
-  -  _HTML:_ **index.html** -- located at root level (run this file)
-  -  _CSS:_ **style.css** -- located in the _css_ subdirectory one level below the root level
-  -  _JAVASCRIPT_ (Mapbox API access token): **config.js** -- located at root level
-  -  _JAVASCRIPT_ (main JavaScript file): **logic.js** -- located in the _Leaflet-Part-1_2_ subdirectory one level below the root level
+  -  _Python code:_ **crypton-clustering.ipynb** -- located at root level (run this file)
+  -  _Source data:_ **crypto_market_data.css** -- located in the _Resources_ subdirectory one level below the root level
 - **If the relative placement of files, above, is altered, the code won't run.**
 - The program relies upon regular updates from the two source URLs at periodic intervals. At times, imperfections or interruptions in the connection may cause a reduction in functionality, such as the inability to toggle layers. **When this happens, it is recommended that the user refresh their browser.** _Please note that alerts in the platform console may occur, but do not necessarily mean function is impaired._
   - Another way to deal with resource access issues is to spin up a local server using [cross-origin resource sharing (CORS)](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing), such as through the [Git](https://git-scm.com/) command "python -m http.server", and run the code through a local port, ideally via a private or incognito browser window or tab. 

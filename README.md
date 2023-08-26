@@ -42,7 +42,7 @@ K-Means was then used to train the data to produce four clusters of the relation
 
 _**Question 2:**_ What is the total explained variance of the three principal components?
 
-_**Answer:**_ The total explained variance of the dataset when all dimensional variance is reduced to three principal components is _0.37005408 + 0.32322221 + 0.19115222_ = **0.88442851**, or just over 88%. In other words, _even after PCA reduces dimensionality, it still captures a large amount of the original dataset's variance._
+_**Answer:**_ The total explained variance of the dataset when all dimensional variance is reduced to three principal components is _0.3719856 + 0.34700813 + 0.17603793_ = **0.89503166**, or almost 90%. In other words, _even after PCA reduces dimensionality, it still captures a large amount of the original dataset's variance._
 
 - **Find the Best Value for k Using the PCA Data**
 

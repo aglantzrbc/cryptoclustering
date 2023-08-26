@@ -38,7 +38,7 @@ K-Means was then used to train the data to produce four clusters of the relation
 
 - **Optimize Clusters with Principal Component Analysis**
 
-[Principal component analysis (PCA)](https://en.wikipedia.org/wiki/Principal_component_analysis) was used to fit the dimensions of the dataset to a predetermined three principal components.
+[Principal component analysis (PCA)](https://en.wikipedia.org/wiki/Principal_component_analysis) was used to fit the dimensions of the dataset to a predetermined three principal components. (NB - A volume of _three_ is often used for principal components because it mirrors the three dimensions of space and is therefore easy to comprehend and visualize.)
 
 _**Question 2:**_ What is the total explained variance of the three principal components?
 

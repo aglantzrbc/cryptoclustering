@@ -14,7 +14,7 @@ Glantz Adam Bootcamp RUT-VIRT-DATA-PT-04-2023-U-LOLC-MWTH - Module 19
 
 ### 1. PROJECT DESCRIPTION
 
-In this [project](https://bootcampspot.instructure.com/courses/3337/assignments/54011?module_item_id=961925), the goal is to use [Python](https://www.python.org/) (particularly through the [sklearn](https://en.wikipedia.org/wiki/Scikit-learn) library) and [unsupervised machine learning](https://en.wikipedia.org/wiki/Unsupervised_learning) to predict if [cryptocurrencies](https://en.wikipedia.org/wiki/Cryptocurrency) are affected by 24-hour or seven-day price changes. (NB - The clustering itself doesn't directly investigate _if_ cryptocurrencies are affected by 24-hour or seven-day price changes; instead, it _groups cryptocurrencies that have had similar price change behaviors_.)
+In this [project](https://bootcampspot.instructure.com/courses/3337/assignments/54011?module_item_id=961925), the goal is to use [Python](https://www.python.org/) (particularly through the [sklearn](https://en.wikipedia.org/wiki/Scikit-learn) library) and [unsupervised machine learning](https://en.wikipedia.org/wiki/Unsupervised_learning) to predict if [cryptocurrencies](https://en.wikipedia.org/wiki/Cryptocurrency) are affected by 24-hour or seven-day price changes. (NB - The project itself doesn't directly investigate _if_ cryptocurrencies are affected by 24-hour or seven-day price changes; instead, it _groups cryptocurrencies that have had similar price change behaviors_, i.e., it is descriptive.)
 
 - **Prepare the Data and Find the Best Value for `k` Using the Original Data**
 

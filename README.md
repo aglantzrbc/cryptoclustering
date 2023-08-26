@@ -14,7 +14,7 @@ Glantz Adam Bootcamp RUT-VIRT-DATA-PT-04-2023-U-LOLC-MWTH - Module 19
 
 ### 1. PROJECT DESCRIPTION
 
-In this [project](https://bootcampspot.instructure.com/courses/3337/assignments/54011?module_item_id=961925), the goal is to use [Python](https://www.python.org/) (particularly through the [sklearn](https://en.wikipedia.org/wiki/Scikit-learn) library) and [unsupervised machine learning](https://en.wikipedia.org/wiki/Unsupervised_learning) to predict if [cryptocurrencies](https://en.wikipedia.org/wiki/Cryptocurrency) are affected by 24-hour or 7-day price changes.
+In this [project](https://bootcampspot.instructure.com/courses/3337/assignments/54011?module_item_id=961925), the goal is to use [Python](https://www.python.org/) (particularly through the [sklearn](https://en.wikipedia.org/wiki/Scikit-learn) library) and [unsupervised machine learning](https://en.wikipedia.org/wiki/Unsupervised_learning) to predict if [cryptocurrencies](https://en.wikipedia.org/wiki/Cryptocurrency) are affected by 24-hour or 7-day price changes. (NB - The clustering itself doesn't directly investigate _if_ cryptocurrencies are affected by 24-hour or 7-day price changes; instead, it _groups cryptocurrencies that have had similar price change behaviors_.)
 
 - **Prepare the Data and Find the Best Value for `k` Using the Original Data**
 
@@ -62,11 +62,11 @@ _**Answer:**_ No, the optimal value for `k` in both cases = _4_. This consistenc
 
 - **Cluster Cryptocurrencies with K-means Using the PCA Data**
 
-K-Means was used again, this time to train the PCA-output data, to produce four clusters of the relationship between the the first two of three principal components (`PC1` and `PC2`). See **Figure 4**.
+K-Means was used again, this time to train the PCA-output data, to produce four clusters of the relationship between the the first two of three principal components (`PC1` and `PC2`). These two are used in a two-dimensional plot because they each explain more variance in the original dataset than `PC3`. See **Figure 4**.
 
 ![image](https://github.com/aglantzrbc/cryptoclustering/assets/127694342/ff4ba901-abb2-4d1f-b3d5-b730108d53a1)
 
-**Figure 4** *Predicted clusters from the PCA-output data of the relationship between the first and second of three principal components.**
+**Figure 4** *Predicted clusters from the PCA-output data of the relationship between the first and second of three principal components, which explain the most variance of the original dataset.**
 
 - **Visualize and Compare the Results**
 

@@ -94,22 +94,12 @@ _**Answer:**_ The impact of using PCA data results in tighter, more compact, les
 
 ### 4. ACKNOWLEDGEMENTS
 
-In addition to using the resources listed above, the author acquired query responses in OpenAI's [ChatGPT](https://chat.openai.com/) 3.5 and 4 platforms, and the [VSCode GitHub Copilot](https://github.com/features/copilot) app V1.
+In addition to using the resources listed above, the author acquired query responses in OpenAI's [ChatGPT](https://chat.openai.com/) 3.5 and 4 apps, and the [VSCode GitHub Copilot](https://github.com/features/copilot) app V1.
 
-The author also consulted code and results from similar projects publicly accessible in [GitHub](https://github.com/) repositories and recoverable through [Google](https://www.google.com/) and comparable search engines:
+The author also consulted code and results from a similar project publicly accessible in a [GitHub](https://github.com/) repository and recoverable through [Google](https://www.google.com/) and comparable search engines:
 
-- [Cooper, Tanisha](https://www.linkedin.com/in/tanisha-cooper-5b3743197/): Locust Grove, Georgia, USA, July 2022. [leaflet-challenge](https://github.com/TanishaCooper/leaflet-challenge)
-- [Janer, Jordan](https://www.linkedin.com/in/jordan-janer/): Los Angeles, California, USA, February 2022. [leaflet-challenge](https://github.com/JordanJaner/leaflet-challenge)
-- [Tallant, Jeremy](https://www.linkedin.com/in/jeremy-tallant-717075220/): San Antonio, Texas, USA, February 2023. [leaflet-challenge](https://github.com/JeremyTallant/leaflet-challenge)
-- [Zhu, Jiuhe (Rosa)](https://www.linkedin.com/in/jiuhe-zhu/): Chicago, Illinois, USA, October 2020. [leaflet-challenge](https://github.com/Jiuhe2020/leaflet-challenge)
-
-The full citations for the JSON data used in this project are as follows:
-
-- [Ahlenius, Hugo](https://www.linkedin.com/in/hugoahlenius/), [Nordpil](https://nordpil.com/): Stockholm, Sweden, October 2014. [tectonicplates](https://github.com/fraxen/tectonicplates)
-- [United States Geological Survey](https://www.usgs.gov/), Earthquake Hazards Program: Reston, Virgina, USA. [GeoJSON Summary Format](https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php)
-
+- [Leigh, John](https://www.linkedin.com/in/johnleigh101/): Chicago, Illinois, USA, May 2023. [CryptoClustering](https://github.com/JLeigh101/CryptoClustering)
 
 ### 5. LICENSES
 
-- **Use of this program assumes the user is in compliance with the terms of service for the [Mapbox](https://www.mapbox.com/legal/tos) API and for the API Mapbox uses as a source, [OpenStreetMap](http://www.openstreetmap.org/copyright).**
-- Otherwise this program is allowed for free use via the [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/) license.
+- This program is allowed for free use via the [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/) license.

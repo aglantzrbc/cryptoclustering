@@ -18,11 +18,19 @@ In this [project](https://bootcampspot.instructure.com/courses/3337/assignments/
 
 After investigating the data, sklearn's [StandardScaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html) was used in preprocessing to [normalize](https://en.wikipedia.org/wiki/Normalization_(statistics)) all dimensions of the data on a single scale. The best value for `k` (i.e., the nunber of [clusters](https://developers.google.com/machine-learning/clustering/overview#:~:text=In%20machine%20learning%20too%2C%20we,relies%20on%20unsupervised%20machine%20learning.)) was calculated by running [K-Means](https://serokell.io/blog/k-means-clustering-in-machine-learning) 11 times on the dataset and plotting the results, thereby using the [Elbow method](https://www.analyticsvidhya.com/blog/2021/01/in-depth-intuition-of-k-means-clustering-algorithm-in-machine-learning/) heuristic to determine when minimizing inertia (i.e., the [within-cluster sum of squares (WCSS))](https://support.minitab.com/en-us/minitab/21/help-and-how-to/statistical-modeling/multivariate/how-to/cluster-k-means/interpret-the-results/all-statistics-and-graphs/#:~:text=The%20within%2Dcluster%20sum%20of%20squares%20is%20a%20measure%20of,a%20large%20sum%20of%20squares.) is balanced by dimishing returns in adding more clusters.
 
-**It was demonstrated that the best value for `k` = _4_. After that point, the line becomes mostly horizontal, because more clusters only reduce the inertia by a small amount.** See **Figure 1**.
+**Question 1:** What is the best value for `k`?
+
+**Answer:** It was demonstrated that the best value for `k` = _4_. After that point, the line becomes mostly horizontal, because more clusters only reduce the inertia by a small amount. See **Figure 1**.
 
 ![image](https://github.com/aglantzrbc/cryptoclustering/assets/127694342/2926e66c-4803-4097-a6f8-6a7e8c8557e5)
 
 **Figure 1** | *Elbow curve for `k` (number of clusters) using the original normalized data*
+
+K-Means was then used to train the data to produce four clusters of the relationship between 24-hour and 7-day cryprocurrency price changes. See **Figure 2**.
+
+![image](https://github.com/aglantzrbc/cryptoclustering/assets/127694342/75334f78-6eba-43ba-97d8-2e10dfe5b18c)
+
+**Figure 2** | *Predicted clusters from the original normalized data of the relationship between 24-hour and 7-day cryprocurrency price change.*
 
 ### 2. INSTALLATION
 

@@ -68,6 +68,14 @@ K-Means was used again, this time to train the PCA-output data, to produce four 
 
 **Figure 4** *Predicted clusters from the PCA-output data of the relationship between the first and second of three principal components.**
 
+- **Visualize and Compare the Results**
+
+Composite plots of Elbow curves and clusters for the original normalized data and the PCA-output data were compared side-by-side for a final assessment.
+
+**Question 5:** After visually analyzing the cluster analysis results, what is the impact of using fewer features to cluster the data using K-Means?
+
+**Answer:** The impact of using PCA data results in tighter, more compact, less dispersed clusters. This is because the goal of PCA is to _capture as much of the variance in the data with fewer features (i.e., principal components)_. This can help clarify patterns in the data, especially when visualizing it. With less "noise", clusters are more condensed.
+
 ### 2. INSTALLATION
 
 - The [GitHub](https://github.com/aglantzrbc/leaflet-challenge) repository (version 2.9.1) containing all project files is publicly accessible.

@@ -81,7 +81,7 @@ _**Answer:**_ The impact of using PCA data results in tighter, more compact, les
 - The [GitHub](https://github.com/aglantzrbc/cryptoclustering) repository (version 2.9.1) containing all project files is publicly accessible.
 - **Constituent program files and their locations:**
   -  _Python code:_ **crypto-clustering.ipynb** -- located at root level (run this file)
-  -  _Source data:_ **crypto_market_data.css** -- located in the _Resources_ subdirectory one level below the root level
+  -  _Source data:_ **crypto_market_data.csv** -- located in the _Resources_ subdirectory one level below the root level
 - **If the relative placement of files, above, is altered, the code won't run.**
 - The assignment details and starter code are proprietary and located on the [Rutgers University](https://www.rutgers.edu/) [(edX)](https://www.edx.org/) Bootcamp Spot [Module 19 Challenge](https://bootcampspot.instructure.com/courses/3337/assignments/54011?module_item_id=961925) webpage.
 - The latest versions of Python is 3.11.

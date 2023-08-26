@@ -90,7 +90,7 @@ _**Answer:**_ The impact of using PCA data results in tighter, more compact, les
 
 ### 3. CONTRIBUTING
 
-- [Glantz, Adam](https://www.linkedin.com/in/adam-glantz/): Annapolis, Maryland, USA, July 2023, email: adamglantz@yahoo.com
+- [Glantz, Adam](https://www.linkedin.com/in/adam-glantz/): Annapolis, Maryland, USA, August 2023, email: adamglantz@yahoo.com
 
 ### 4. ACKNOWLEDGEMENTS
 

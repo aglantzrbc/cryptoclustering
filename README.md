@@ -50,7 +50,7 @@ The optimal value for `k` was now determined with the Elbow method again, this t
 
 ![image](https://github.com/aglantzrbc/cryptoclustering/assets/127694342/98a2edc2-e02f-4cca-b7b1-080bd3897780)
 
-**Figure 3** | *Elbow curve for `k` (number of clusters) using the PCA output data*
+**Figure 3** | *Elbow curve for `k` (number of clusters) using the PCA output data.*
 
 _**Question 3:**_ What is the best value for `k` when using the PCA data?
 

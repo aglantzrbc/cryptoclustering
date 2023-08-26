@@ -48,7 +48,7 @@ _**Answer:**_ The total explained variance of the dataset when all dimensional v
 
 The optimal value for `k` was now determined with the Elbow method again, this time using the output data from PCA. See **Figure 3**.
 
-![image](https://github.com/aglantzrbc/cryptoclustering/assets/127694342/662b4e56-cce7-486c-97d4-49b6a8291a6f)
+![image](https://github.com/aglantzrbc/cryptoclustering/assets/127694342/98a2edc2-e02f-4cca-b7b1-080bd3897780)
 
 **Figure 3** | *Elbow curve for `k` (number of clusters) using the PCA output data*
 
@@ -64,7 +64,7 @@ _**Answer:**_ No, the optimal value for `k` in both cases = _4_. This consistenc
 
 K-Means was used again, this time to train the PCA-output data, to produce four clusters of the relationship between the first two of three principal components (`PC1` and `PC2`). These two are used in a two-dimensional plot because they each explain more variance in the original dataset than `PC3`. See **Figure 4**.
 
-![image](https://github.com/aglantzrbc/cryptoclustering/assets/127694342/ff4ba901-abb2-4d1f-b3d5-b730108d53a1)
+![image](https://github.com/aglantzrbc/cryptoclustering/assets/127694342/fd07dfc9-546d-414c-9324-f3c43b721902)
 
 **Figure 4** *Predicted clusters from the PCA-output data of the relationship between the first and second of three principal components, which explain the most variance of the original dataset.**
 

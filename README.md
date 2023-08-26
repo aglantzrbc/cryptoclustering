@@ -44,6 +44,22 @@ K-Means was then used to train the data to produce four clusters of the relation
 
 **Answer:** The total explained variance of the dataset when all dimensional variance is reduced to three principal components is _0.37005408 + 0.32322221 + 0.19115222_ = **0.88442851**, or just over 88%. In other words, _even after PCA reduces dimensionality, it still captures a large amount of the original dataset's variance._
 
+- **Find the Best Value for k Using the PCA Data**
+
+The optimal value for `k` was now determined with the Elbow method again, this time using the output data from PCA. See **Figure 3**.
+
+![image](https://github.com/aglantzrbc/cryptoclustering/assets/127694342/662b4e56-cce7-486c-97d4-49b6a8291a6f)
+
+**Figure 3** | *Elbow curve for `k` (number of clusters) using the PCA output data*
+
+**Question 3:** What is the best value for `k` when using the PCA data?
+
+**Answer:** The best value for `k` = _4_. After that point, the line becomes mostly horizontal, because more clusters only reduce the within-cluster sum of squares (WCSS) by a small amount.
+
+**Question 4:** Does it differ from the best `k` value found using the original data?
+
+**Answer:** No, the optimal value for `k` in both cases = _4_. This consistency in the optimal `k` value between the original scaled data and the PCA-reduced data provides additional confidence in the clustering. It suggests that the underlying structure of the data, in terms of how the data points group together, is maintained _even after the dimensionality reduction of PCA_ (i.e., "throwing away" some data).
+
 ### 2. INSTALLATION
 
 - The [GitHub](https://github.com/aglantzrbc/leaflet-challenge) repository (version 2.9.1) containing all project files is publicly accessible.

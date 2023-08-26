@@ -30,7 +30,7 @@ _**Answer:**_ It was demonstrated that the best value for `k` = _4_. After that 
 
 - **Cluster Cryptocurrencies with K-Means Using the Original Data**
 
-K-Means was then used to train the data to produce four clusters of the relationship between 24-hour and seven-day cryptocurrency price changes. The value of clustering is that the machine can determine and display patterns it discovers by itself. See **Figure 2**.
+K-Means was then used to train the data to produce four clusters of the relationship between 24-hour and seven-day cryptocurrency price changes. The value of clustering is that the machine can determine and display patterns it discovers by itself, without pre-established labels. See **Figure 2**.
 
 ![image](https://github.com/aglantzrbc/cryptoclustering/assets/127694342/75334f78-6eba-43ba-97d8-2e10dfe5b18c)
 

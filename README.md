@@ -14,7 +14,7 @@ Glantz Adam Bootcamp RUT-VIRT-DATA-PT-04-2023-U-LOLC-MWTH - Module 19
 
 ### 1. PROJECT DESCRIPTION
 
-In this [project](https://bootcampspot.instructure.com/courses/3337/assignments/54011?module_item_id=961925), the goal is to use [Python](https://www.python.org/) (particularly through the [sklearn](https://en.wikipedia.org/wiki/Scikit-learn) library) and [unsupervised machine learning](https://en.wikipedia.org/wiki/Unsupervised_learning) to predict if [cryptocurrencies](https://en.wikipedia.org/wiki/Cryptocurrency) are affected by 24-hour or 7-day price changes. (NB - The clustering itself doesn't directly investigate _if_ cryptocurrencies are affected by 24-hour or 7-day price changes; instead, it _groups cryptocurrencies that have had similar price change behaviors_.)
+In this [project](https://bootcampspot.instructure.com/courses/3337/assignments/54011?module_item_id=961925), the goal is to use [Python](https://www.python.org/) (particularly through the [sklearn](https://en.wikipedia.org/wiki/Scikit-learn) library) and [unsupervised machine learning](https://en.wikipedia.org/wiki/Unsupervised_learning) to predict if [cryptocurrencies](https://en.wikipedia.org/wiki/Cryptocurrency) are affected by 24-hour or seven-day price changes. (NB - The clustering itself doesn't directly investigate _if_ cryptocurrencies are affected by 24-hour or seven-day price changes; instead, it _groups cryptocurrencies that have had similar price change behaviors_.)
 
 - **Prepare the Data and Find the Best Value for `k` Using the Original Data**
 
@@ -30,11 +30,11 @@ _**Answer:**_ It was demonstrated that the best value for `k` = _4_. After that 
 
 - **Cluster Cryptocurrencies with K-Means Using the Original Data**
 
-K-Means was then used to train the data to produce four clusters of the relationship between 24-hour and 7-day cryptocurrency price changes. The value of clustering is that the machine can determine and display patterns it discovers by itself. See **Figure 2**.
+K-Means was then used to train the data to produce four clusters of the relationship between 24-hour and seven-day cryptocurrency price changes. The value of clustering is that the machine can determine and display patterns it discovers by itself. See **Figure 2**.
 
 ![image](https://github.com/aglantzrbc/cryptoclustering/assets/127694342/75334f78-6eba-43ba-97d8-2e10dfe5b18c)
 
-**Figure 2** | *Predicted clusters from the original normalized data of the relationship between 24-hour and 7-day cryptocurrency price changes.*
+**Figure 2** | *Predicted clusters from the original normalized data of the relationship between 24-hour and seven-day cryptocurrency price changes.*
 
 - **Optimize Clusters with Principal Component Analysis**
 
